@@ -1,0 +1,27 @@
+body {
+  background-color: midnightblue;
+  font-weight: bold;
+  font-size: 24px;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+.content {
+  grid-area: content;
+  padding: 10px;
+}
+.app-wrapper {
+  display: grid;
+  grid-template-areas:
+  " header header "
+  "nav content";
+  grid-template-rows: auto 1fr;
+  grid-template-columns:2fr 10fr;
+  
+  background-color: darkcyan;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+

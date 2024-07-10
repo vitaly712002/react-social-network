@@ -1,0 +1,24 @@
+.users {
+  background-color: darkslategray;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.user {
+  border: 2px solid chocolate;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 20%;
+  font-size: 16px;
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  border-top-right-radius: 50%;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+

@@ -1,0 +1,18 @@
+.dialogs {
+  background: rgb(44, 111, 235);
+  display: grid;
+  grid-template-columns: 4fr 8fr;
+}
+.message {
+  padding: 10px;
+}
+.item {
+  padding: 10px;
+  background-color: rgb(211, 78, 178);
+  border: 1px solid darkblue;
+  cursor: pointer;
+  display: block;
+}
+.item.active {
+  border: 2px solid gold;
+}

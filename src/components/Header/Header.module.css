@@ -1,0 +1,8 @@
+.header{
+  grid-area: header;
+  background-color:orchid;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
